@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.vishal.phonesicalcapplication.SimpleInterest" >
+
+    <TextView
+        android:id="@+id/PA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/PA_bar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="14dp"
+        android:text="Principal Amount"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/PA_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/Years"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/IR_bar"
+        android:layout_centerVertical="true"
+        android:text="Enter No.of Years"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/year_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Years"
+        android:layout_marginTop="21dp" />
+
+    <TextView
+        android:id="@+id/Interest_Rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/IR_bar"
+        android:layout_marginBottom="15dp"
+        android:text="Interest Rate"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/IR_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="#000000">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:minLines="2"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_marginTop="45dp"
+        android:textColor="#000000"/>
+</LinearLayout>

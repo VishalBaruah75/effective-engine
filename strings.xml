@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">PhoneSICalc Application</string>
+    <string name="phone">Open Phonebook</string>
+    <string name="calculator">Open Calculator</string>
+    <string name="interest">Open Simple Interest Calculator</string>
+    <string name="name">PhoneBook Simple Interest and Calculator</string>
+    <string name="design">Designed and developed by Vishal Baruah</string>
+    <string name="jec">Jorhat Engineering College</string>
+</resources>
